@@ -14,7 +14,7 @@ public class MedianOfTwoSortedArrays {
 
             double result = 0.0;
             if (concat.length % 2 == 1) {
-                result = (double) concat[concat.length / 2];
+                result = concat[concat.length / 2];
             } else {
                 int mid1 = concat[concat.length / 2 - 1];
                 int mid2 = concat[concat.length / 2];
