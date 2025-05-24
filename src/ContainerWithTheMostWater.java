@@ -1,6 +1,5 @@
 // url: https://leetcode.com/problems/container-with-most-water/description/
 
-import static java.lang.Math.abs;
 import static java.lang.Math.max;
 
 public class ContainerWithTheMostWater {
@@ -14,7 +13,7 @@ public class ContainerWithTheMostWater {
             int leftValue = height[left];
             int rightValue = height[right];
 
-            int maxHeight = max(leftValue, rightValue) - abs(leftValue - rightValue);
+            int maxHeight = Math.min(leftValue, rightValue);
             int length = right - left;
 
             int currentOutput = maxHeight * length;
