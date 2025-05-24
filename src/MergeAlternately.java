@@ -1,4 +1,4 @@
-public class MergeAlternatly {
+public class MergeAlternately {
     public String mergeAlternately(String word1, String word2) {
 
         StringBuilder builder = new StringBuilder();
@@ -24,7 +24,7 @@ public class MergeAlternatly {
     }
 
     public static void main(String[] args) {
-        MergeAlternatly mergeAlternatly = new MergeAlternatly();
+        MergeAlternately mergeAlternatly = new MergeAlternately();
         String result = mergeAlternatly.mergeAlternately("abv", "hgtdd");
         System.out.println(result);
     }

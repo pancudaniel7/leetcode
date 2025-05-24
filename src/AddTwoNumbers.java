@@ -19,7 +19,6 @@ class AddTwoNumbers {
     }
 
 
-
     static class Solution {
         public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
             int l1Size = getSize(l1);
@@ -33,7 +32,6 @@ class AddTwoNumbers {
 
             int sum = 0, reminder = 0, digit = 0;
             while (head != null && head2 != null) {
-
                 sum = head.val + head2.val + reminder;
                 reminder = sum / 10;
                 digit = sum % 10;
@@ -84,8 +82,8 @@ class AddTwoNumbers {
 //        ListNode l2 = new ListNode(9, new ListNode(2));
 
             Solution solution = new Solution();
-
             ListNode root = solution.addTwoNumbers(l1, l2);
+            System.out.println(root);
         }
     }
 }
