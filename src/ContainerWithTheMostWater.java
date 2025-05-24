@@ -17,7 +17,7 @@ public class ContainerWithTheMostWater {
             int length = right - left;
 
             int currentOutput = maxHeight * length;
-            output = max(currentOutput, output);
+            output = Math.max(currentOutput, output);
 
             if (leftValue < rightValue) {
                 left++;
