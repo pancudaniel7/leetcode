@@ -1,11 +1,7 @@
 // url: https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
-import com.sun.jdi.CharType;
-
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 public class LongestSubstringWithoutRepeatingCharacters {
     static class Solution {

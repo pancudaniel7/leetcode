@@ -1,9 +1,9 @@
 // url: https://leetcode.com/problems/palindrome-number/
 
-public class IsPolindrom {
+public class IsPalindrome {
     static class Solution {
 
-        private boolean isPolindrom(int x) {
+        private boolean isPalindrome(int x) {
             String number = String.valueOf(x);
             int length = number.length();
 
@@ -26,7 +26,7 @@ public class IsPolindrom {
             int x = 121;
             Solution solution = new Solution();
 
-            boolean result = solution.isPolindrom(x);
+            boolean result = solution.isPalindrome(x);
             System.out.println(result);
         }
     }

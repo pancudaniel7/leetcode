@@ -1,7 +1,5 @@
 // Multiply numbers without using '*' operator
 
-import static java.lang.Math.abs;
-
 public class MultiplyNumbers {
 
     public static int multiply(int a, int b) {
@@ -26,5 +24,6 @@ public class MultiplyNumbers {
         System.out.println(multiply(-2, -3));
         System.out.println(multiply(-2, 3));
         System.out.println(multiply(2, -3));
+        System.out.println(multiply(-2, 0));
     }
 }

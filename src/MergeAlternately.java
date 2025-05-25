@@ -6,8 +6,8 @@ public class MergeAlternately {
 
         int i = 0;
         for (; i < minLength; i++) {
-            builder.append(String.valueOf(word1.charAt(i)));
-            builder.append(String.valueOf(word2.charAt(i)));
+            builder.append(word1.charAt(i));
+            builder.append(word2.charAt(i));
         }
 
         String biggestWord = "";
@@ -24,8 +24,8 @@ public class MergeAlternately {
     }
 
     public static void main(String[] args) {
-        MergeAlternately mergeAlternatly = new MergeAlternately();
-        String result = mergeAlternatly.mergeAlternately("abv", "hgtdd");
+        MergeAlternately mergeAlternately = new MergeAlternately();
+        String result = mergeAlternately.mergeAlternately("abv", "hgtdd");
         System.out.println(result);
     }
 }
