@@ -20,13 +20,14 @@ public class IncreasingTripletSubsequence {
     public static void main(String[] args) {
         IncreasingTripletSubsequence increasingTripletSubsequence = new IncreasingTripletSubsequence();
 //        boolean result = increasingTripletSubsequence.increasingTriplet(new int[]{2, 1, 5, 0, 4, 6});
-        boolean result = increasingTripletSubsequence.increasingTriplet(new int[]{5, 4, 3, 2, 1});
+//        boolean result = increasingTripletSubsequence.increasingTriplet(new int[]{5, 4, 3, 2, 1});
 //        boolean result = increasingTripletSubsequence.increasingTriplet(new int[]{5});
 //        boolean result = increasingTripletSubsequence.increasingTriplet(new int[]{5, 4});
 //        boolean result = increasingTripletSubsequence.increasingTriplet(new int[]{1, 2, 3});
 //        boolean result = increasingTripletSubsequence.increasingTriplet(new int[]{1, 2, 5, 4});
 
-//        boolean result = increasingTripletSubsequence.increasingTriplet(new int[]{20, 100, 10, 12, 5, 13});
+//        boolean result = increasingTripletSubsequence.increasingTriplet(new int[]{20, 100, 10, 12, 5, 11, 13});
+        boolean result = increasingTripletSubsequence.increasingTriplet(new int[]{20, 100, 21, 200});
         System.out.println(result);
     }
 }
