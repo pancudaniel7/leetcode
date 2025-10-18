@@ -17,6 +17,5 @@ public class DivideTwoIntegers {
     public static void main(String[] args) {
         DivideTwoIntegers divideTwoIntegers = new DivideTwoIntegers();
         divideTwoIntegers.divide(10, 3);
-
     }
 }
