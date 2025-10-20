@@ -29,7 +29,6 @@ public class LongestSubstringWithoutRepeatingCharacters {
 
             int length = getSubstringLength(s);
             System.out.println(length);
-
         }
     }
 }
